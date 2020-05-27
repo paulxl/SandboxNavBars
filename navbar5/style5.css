@@ -1,0 +1,76 @@
+.logo {
+    width: 7%;
+    height: auto;
+    float: left;
+    padding: 10px 0;
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav {
+    order: 1;
+}
+
+.cta {
+    order: 2;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li:nth-child(1) {
+    padding: 0 20px 0 0;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+}
